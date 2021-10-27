@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jazal-{{ version }}.tar.gz
-  sha256: 4f0b9c656775de272451e0d32e58567e765defe0ba518d13e762bad3a697779a
+  sha256: 6ff63cce5fc6aedddaa509d1a3ea32ab4aff5245c6d33877b1b593cbeb210b42
 
 build:
   number: 0
@@ -33,7 +33,7 @@ test:
 
 about:
   home: https://github.com/GRV96/jazal
-  summary: "Jazal performs certain verifications on file paths before a function or a script uses them."
+  summary: "Jazal performs certain verifications on file paths before a function or a script uses them.""
   description: "See the README in the GitHub repository (home)."
   license: MIT
   license_file: LICENSE
